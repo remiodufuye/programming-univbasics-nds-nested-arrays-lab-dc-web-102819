@@ -33,12 +33,8 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   
-     total_residents = [ENNET_HOUSE,ENFIELD_TENNIS_ACADEMY]
+     total_residents = [ENNET_HOUSE.sort ,ENFIELD_TENNIS_ACADEMY.sort]
      
-             
-     total_residents = total_residents.sort { |a, b| b[1] <=> a[1] }
-
-
     p total_residents
     
     # myArray.sort { |x,y| x[0] <=> y[0] }
